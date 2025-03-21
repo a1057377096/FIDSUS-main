@@ -1,7 +1,11 @@
 #!/bin/bash
 
+source D:/devSoft/anaconda3/etc/profile.d/conda.sh
+conda activate fl
+set -ex
+
 algos=("FedAvg")
-datasets=("UNDIR10")
+datasets=("NSLKDD")
 jr="1"
 client_activity_rate="0"
 batch_size="64"
